@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+body{
+    width: 100%;
+   
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat:no-repeat ;
+    background-size: cover;
+    background-image: url(photo_٢٠٢٤-١٢-٠٩_١٧-٢٩-٥٨.jpg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgba(0, 0, 255, 0.874);
+}
+
+iframe{
+    width: 70%;
+ height: 80vh;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 5px rgba(0, 213, 255, 0.448) solid ;
+    margin-top: 20px;
+}
+h1,h2 {
+    width: 100%;
+    padding: 5px 0;
+    color: blue;
+    border:1px solid rgba(1, 90, 107, 0.471);
+    text-align: center;
+    font-size: 30px;
+    background-color: aqua;
+    text-decoration: none;
+    margin-top: 20px;
+}
+h1:hover{
+    background-color: aqua;
+    border-radius: 15%;
+    padding: 20px 0;
+    transition: all 0.9s;
+}
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#ma{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    box-shadow: 0 0 5px  rgb(18, 18, 19);
+    width: 100px;
+    height: 100px;
+    backdrop-filter: blur(.625rem);
+    transition: transform 2s;
+}
+i{
+    font-size: 50px;
+    color: rgb(36, 105, 208);
+}
+#ma:hover{
+    background-color: rgba(26, 24, 24, 0.648);
+    transform: rotate(360deg);
+}

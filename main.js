@@ -4,11 +4,13 @@ function showsection(sectionId) {
   const sections = document.querySelectorAll('.section_main');
   sections.forEach(section => {
     section.classList.add('hidden'); // إضافة فئة الإخفاء لجميع الأقسام
+  
   });
   // إظهار القسم المطلوب
   const targetSection = document.getElementById(sectionId);
   if (targetSection) {
     targetSection.classList.remove('hidden');
+   
   }
 }
 
