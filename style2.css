@@ -44,12 +44,12 @@ body{
 
 
 .container1 header{
-  width: 100%;
+  width: 99.5vw;
   height: 100px;
   background-color: rgba(0, 213, 255, 0.448);
   backdrop-filter: blur(10px);
   display: flex;
-  gap: 200px;
+  gap: 5%;
   flex-direction: row-reverse;
   justify-content: space-evenly;
   align-items: center;
@@ -269,7 +269,7 @@ background-color: #dae7f3;
     background: none;
     border: none;
     cursor: pointer;
-    font-size: 35px;
+    font-size: 25px;
     font-weight: 500;
 padding: 10px;
     transition: 0.3s ease;
@@ -760,7 +760,7 @@ textarea{
   align-items: center;
 background-color: rgb(25, 108, 175);
 opacity: 0.9;
-  margin: 50px -150px 50px 270px;
+
   text-align: center;
   width: 70%;
   border-radius: 20px;
@@ -846,4 +846,12 @@ display: flex;
   }
   .form-control{
     margin: 10px 10px 5px 10px;
+  }
+
+  .main_cont{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    /* justify-content: center; */
+    align-items: center;
   }
